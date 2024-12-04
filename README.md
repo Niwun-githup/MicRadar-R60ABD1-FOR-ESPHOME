@@ -1,6 +1,6 @@
 #### ESPHOME-MicRadar-R60ABD1-MMWARE-SENSOR
 ![image alt](https://github.com/Niwun-githup/MicRadar-R60ABD1-FOR-ESPHOME/blob/5f91e4ab1d5da18389b4a467d33bcd33ff1bbcb3/R6ABD1.jpg)
-Build Setup
+''
 The display of sensor values ​​(e.g. Bed Status, Heartbeat Rate, Motion Sensor, Presence Sensor, Respiratory Rate, and Sleep Quality) in Home Assistant can be described as follows:
 1. Bed Status: A value of 0 means no "Out of Bed" status is detected. A value of 1 means "In Bed".
 2. Heartbeat Rate: Displays the heart rate of a person in the area that the sensor can detect (in BPM: Beats Per Minute). A value of 67 means a normal heart rate.
