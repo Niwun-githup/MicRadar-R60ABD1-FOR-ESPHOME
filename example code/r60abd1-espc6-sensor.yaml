@@ -10,7 +10,7 @@ esphome:
   name: r60abd1-espc6-sensor
   friendly_name: R60ABD1-ESPC6-SENSOR
   includes:
-    - header/mr60abd1.h
+    - header/r60abd1_sensor.h
   
 
 esp32:
@@ -34,21 +34,21 @@ logger:
 # Enable Home Assistant API
 api:
   encryption:
-    key: "satwpbbr89+4Pk9Pf9K2Rz9ruu75mez+VZ7DRFNvVQI="
+    key: "................."
 
 ota:
   - platform: esphome
-    password: "5ecfb11ee4dbaa298fbb6a563e9f5ac4"
+    password: "......................."
 
 wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
-  use_address: 192.168.1.67
+  use_address: xxx.xxx.xxx.xxx.
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
-    ssid: "R60Abd1-Espc6-Sensor"
-    password: "VCd0PwXWKYn7"
+    ssid: "................"
+    password: "............."
 
 captive_portal:
 # UART configuration for communication with the sensor
