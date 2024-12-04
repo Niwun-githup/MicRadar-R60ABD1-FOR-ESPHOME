@@ -18,7 +18,7 @@ Download the file in header : r60abd1_sensor.h and copy it to esphome (/homeassi
 ```
 /header/r60abd1_sensor.h
 ```
-In Home Assistant add-on, click ESPHome>open web gui and create a new device choosing the "continue" option and give it a name such as:
+In the Home Assistant add-on, click ESPHome > Open the web GUI and create a new device by selecting the "Continue" option and giving it a name, e.g.: Then paste the code: r60abd1-espc6-sensor.yaml and edit it.
 ```
 R60abd1-espc6-sensor.yaml
 ```
