@@ -14,8 +14,11 @@ The display of sensor values ​​(e.g. Bed Status, Heartbeat Rate, Motion Sens
 ![image alt](https://github.com/Niwun-githup/MicRadar-R60ABD1-FOR-ESPHOME/blob/5f91e4ab1d5da18389b4a467d33bcd33ff1bbcb3/ESP32C6_R60ABD1.JPG)
 
 ## Installation
----
 Download the file in header : r60abd1_sensor.h and copy it to esphome (/homeassistant/esphome/header/r60abd1_sensor.h) in your main Home Assistant config/esphome folder
 ```
 /header/r60abd1_sensor.h
+```
+In Home Assistant add-on, click ESPHome>open web gui and create a new device choosing the "continue" option and give it a name such as:
+```
+R60abd1-espc6-sensor.yaml
 ```
