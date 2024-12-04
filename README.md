@@ -20,7 +20,9 @@ Download the file in header : r60abd1_sensor.h and copy it to esphome (/homeassi
 ```
 In the Home Assistant add-on, click ESPHome > Open the web GUI and create a new device by selecting the "Continue" option and giving it a name, e.g.: Then paste the code: r60abd1-espc6-sensor.yaml and edit it.
 ```
+```
 R60abd1-espc6-sensor.yaml
+```
 ```
 substitutions:
   device_name: "mr60abd1-mmwave-sensor"
